@@ -10,3 +10,10 @@ and Z is a parent of Y
 grandparent(X, Y) :-
     parent(X, Z),
     parent(Z, Y).
+
+ancestor(X, Y) :-
+    parent(X, Y).
+
+ancestor(X, Y) :-
+    parent(X, Z),
+    ancestor(Z, Y).
