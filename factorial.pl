@@ -6,11 +6,11 @@ factorial(N, F) :-
     multiply result by N.
 */
 
-n is 3.
+factorial(0, 1).
 
 factorial(N, F) :-
     N > 0,
-    N is N - 1,
-    F1 is N * F,
-    F is F * N.
+    N1 is N - 1,
+    factorial(N1, F1),
+    F is N * F1.
 
