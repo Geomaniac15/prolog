@@ -1,16 +1,32 @@
-# Overview
-So my lecturer mentioned this obscure coding language from the 70s.
+# Prolog Experiments
 
-He said it was used for early machine learning so I thought, why not try to learn it.
+## Overview
 
-So I guess that this is what this repo is.
+My lecturer mentioned Prolog, a logic programming language from the 1970s that was widely used in early AI and knowledge-based systems.
 
----
+Instead of writing programs as sequences of instructions, Prolog lets you describe relationships and rules, and the interpreter figures out how to satisfy queries using logical inference and backtracking.
 
-# Future
-I don't know really, just practice and see what happens.
+This repository is where I’m experimenting with the language while learning how it works.
 
----
+So far this includes small exercises such as:
 
-# Author
-George :)
+- recursion (factorial)
+- graph traversal
+- logical relations
+- basic rule systems
+
+The goal is mostly to understand how declarative programming differs from imperative languages.
+
+## Future
+
+Who knows really. Just experimenting with different logic problems and seeing what Prolog can do.
+
+Possible directions:
+- constraint solving
+- simple expert systems
+- graph reasoning
+- puzzles (sudoku, etc.)
+
+## Author
+
+George
